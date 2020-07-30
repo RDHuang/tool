@@ -11,15 +11,63 @@
   ssh-keygen -t rsa -C "your eamil"
 ```
 
->按照提示完成三次回车，即可生成ssh key
+*按照提示完成三次回车，即可生成ssh key*
 
 > 一种通过查找文件目录复制key添加公钥
 
-**C:\Users\Administrator\.ssh**
+```
+C:\Users\Administrator\.ssh\id_rsa.pub
+```
 
 > 一种使用命令拿到
 ```
 cat ~/.ssh/id_rsa.pub
 ```
-> 复制显示出来的sshkey添加公钥
+
+# 添加、修改、删除、查看本地git的用户名和邮箱
+
+1. 添加
+
+```git
+git config --global user.name "yourName"
+git config --global user.email "your@email.com"
+```
+
+2. 修改
+
+* 覆盖
+
+```git
+git config --global user.name "yourName"
+git config --global user.email "your@email.com"
+```
+
+* 替换
+
+```git
+git config --global --replace-all user.name "yourName"
+git config --global --replace-all user.email "your@email.com"
+```
+
+3. 删除
+
+```git
+git config --global --unset user.name "yourName"
+git config --global --unset user.email "your@email.com"
+```
+
+4. 查看
+
+* 查看所有
+```git
+git config --list
+```
+
+* 查看指定信息
+
+```git
+git config user.name
+git config user.email
+```
+
 
