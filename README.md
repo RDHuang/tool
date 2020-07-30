@@ -1,9 +1,12 @@
-# window生成.ssh公钥
+# 前端常用工具命令
+
+## window生成.ssh公钥
 
   首先查看电脑中是否已经存在此文件
 
 > 目录一般都在 C:/Users/Administrator/.ssh
-  若存在，复制此目录下 id_rsa.pub 文件的内容到github or gitee上面添加公钥就好了
+
+若存在，复制此目录下 id_rsa.pub 文件的内容到github or gitee上面添加公钥就好了
 
 如果没有此文件,可以使用如下命令来生成sshkey
 
@@ -24,7 +27,7 @@ C:\Users\Administrator\.ssh\id_rsa.pub
 cat ~/.ssh/id_rsa.pub
 ```
 
-# 添加、修改、删除、查看本地git的用户名和邮箱
+## 添加、修改、删除、查看本地git的用户名和邮箱
 
 1. 添加
 
@@ -70,7 +73,7 @@ git config user.name
 git config user.email
 ```
 
-# vsCode常用插件
+## vsCode常用插件
 
 1. Auto Close Tag （自动闭合html/xml标签）
 
@@ -90,7 +93,7 @@ git config user.email
 
 9. JavaScript(ES6) code snippets （es6语法智能提示，以及快速输入）
 
-10. Markdown Preview Enhanced （实时预览markdown）
+10. Markdown Preview Enhanced （实时预览markdown,快捷键打开 ctrl + k  v）
 
 11. markdownlint （markdown语法纠错）
 
@@ -103,3 +106,5 @@ git config user.email
 15. Npm Intellisense（rquire时的包提示，node必备）
 
 16. open in browser（支持快捷键与鼠标右键快速在浏览器中打开html文件）
+
+17. Dracula Official （可骚气的主题，吸血鬼）
