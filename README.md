@@ -35,14 +35,14 @@ git config --global user.email "your@email.com"
 
 2. 修改
 
-* 覆盖
+> 覆盖
 
 ```git
 git config --global user.name "yourName"
 git config --global user.email "your@email.com"
 ```
 
-* 替换
+> 替换
 
 ```git
 git config --global --replace-all user.name "yourName"
@@ -58,12 +58,12 @@ git config --global --unset user.email "your@email.com"
 
 4. 查看
 
-* 查看所有
+> 查看所有
 ```git
 git config --list
 ```
 
-* 查看指定信息
+> 查看指定信息
 
 ```git
 git config user.name
