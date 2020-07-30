@@ -102,3 +102,4 @@ git config user.email
 
 15. Npm Intellisense（rquire时的包提示，node必备）
 
+16. open in browser（支持快捷键与鼠标右键快速在浏览器中打开html文件）
